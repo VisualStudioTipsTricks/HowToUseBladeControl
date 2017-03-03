@@ -1,0 +1,19 @@
+﻿<Application
+    x:Class="HowToUseBladeControl.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:HowToUseBladeControl"
+    RequestedTheme="Light">
+    <Application.Resources>
+        <LinearGradientBrush x:Key="listBackground">
+            <GradientStop Color="#99FF0000" Offset="0.0" />
+            <GradientStop Color="#FFFFFFFF" Offset="0.5" />
+            <GradientStop Color="#33FF0000" Offset="1.0" />
+        </LinearGradientBrush>
+        <LinearGradientBrush x:Key="detailBackground">
+            <GradientStop Color="#99FFDC00" Offset="0.0" />
+            <GradientStop Color="#FFFFFFFF" Offset="0.5" />
+            <GradientStop Color="#99F5A700" Offset="1.0" />
+        </LinearGradientBrush>
+    </Application.Resources>
+</Application>
